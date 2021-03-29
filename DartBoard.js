@@ -1,7 +1,7 @@
  class DartBoard extends BaseClass {
   constructor(x, y){
     super(x,y,50,50);
-    this.image = loadImage("sprites/DartBoard.png");
+    this.image = loadImage("DartBoard.png");
     this.Visiblity = 255;
   }
 

@@ -2,7 +2,7 @@ class Shuriken extends BaseClass {
   constructor(x,y){
     super(x,y,50,50);
     this.image = loadImage("shuriken.png");
-    this.smokeImage = loadImage("sprites/smoke.png");
+    this.smokeImage = loadImage("smoke.png");
     this.trajectory =[];
   }
 

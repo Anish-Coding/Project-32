@@ -6,9 +6,7 @@ class Ninja{
             stiffness: 0.04,
             length: 10
         }
-        this.image = loadImage('sprites/download.png');
-        // this.sling2 = loadImage('sprites/sling2.png');
-        // this.sling3 = loadImage('sprites/sling3.png');
+        this.image = loadImage('download.png');
         this.pointB = pointB
         this.ninja = Constraint.create(options);
         World.add(world, this.ninja);
